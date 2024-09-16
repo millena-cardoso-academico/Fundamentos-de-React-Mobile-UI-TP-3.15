@@ -1,0 +1,29 @@
+:root {
+  --background-light: #f9f9f9;
+  --text-light: #333;
+  --background-dark: #333;
+  --text-dark: #f9f9f9;
+  --button-color: #4CAF50;
+  --button-hover-color: #45a049;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.app-container.light {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+.app-container.dark {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
